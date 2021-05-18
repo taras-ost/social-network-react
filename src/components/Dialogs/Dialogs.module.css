@@ -1,0 +1,41 @@
+.dialogs {
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+    padding: 20px;
+}
+
+.dialogsItems {
+    border-radius: 10px;
+    background-color: #EEEEEE;
+}
+
+.dialog {
+    margin: 10px;
+}
+
+.messages {
+    margin-left: 10px;
+    border-radius: 10px;
+    background-color: #EEEEEE;
+}
+
+.message {
+    margin: 10px;
+}
+
+textarea {
+    background: #dee7ff;
+    border: 2px solid #0345fc;
+    padding: 10px;
+    width: 60%;
+    height: 100px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+button {
+    margin: 20px 0;
+    width: 200px;
+    height: 40px;
+    border: 2px solid #0345fc;
+}

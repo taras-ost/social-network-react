@@ -1,0 +1,11 @@
+.photo img {
+    width: 100%;
+}
+
+.logo {
+    margin: 20px 10px;
+}
+
+.logo img {
+    height: 100px;
+}

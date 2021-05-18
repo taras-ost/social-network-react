@@ -1,0 +1,28 @@
+.nav {
+    grid-area: n;
+    background-color: #85C3FF;
+    padding: 20px;
+}
+
+.item {
+    margin: 10px;
+}
+
+.item a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.item a.active {
+    color: darkred;
+}
+
+.friends {
+    margin-top: 20px;
+    background-color: #ebb494;
+    border-radius: 5px;
+}
+
+.friends img{
+    width: 20px;
+}

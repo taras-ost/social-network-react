@@ -1,0 +1,14 @@
+.item {
+    margin-bottom: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #EEEEEE;
+}
+
+.item img{
+    width: 50px;
+}
+
+.like img {
+    width: 20px;
+}
