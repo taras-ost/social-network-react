@@ -13,12 +13,12 @@ const Navbar = (props) => {
     return (
         <div>
             <nav className={s.nav}>
-                <div className={s.item}><NavLink to="./profile" activeClassName={s.active}>Profile</NavLink></div>
-                <div className={s.item}><NavLink to="./dialogs" activeClassName={s.active}>Messages</NavLink></div>
-                <div className={s.item}><NavLink to="./users" activeClassName={s.active}>Users</NavLink></div>
-                <div className={s.item}><a href="#">News</a></div>
-                <div className={s.item}><a href="#">Music</a></div>
-                <div className={s.item}><a href="#">Settings</a></div>
+                <div className={s.item}><NavLink to='./profile' activeClassName={s.active}>Profile</NavLink></div>
+                <div className={s.item}><NavLink to='./dialogs' activeClassName={s.active}>Messages</NavLink></div>
+                <div className={s.item}><NavLink to='./users' activeClassName={s.active}>Users</NavLink></div>
+                <div className={s.item}><a href='#'>News</a></div>
+                <div className={s.item}><a href='#'>Music</a></div>
+                <div className={s.item}><a href='#'>Settings</a></div>
             </nav>
             {/*<div className={s.friends}>*/}
             {/*    {friends}*/}
