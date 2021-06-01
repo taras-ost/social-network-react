@@ -16,8 +16,8 @@ const ProfileInfo = (props) => {
             <div className={s.logo}>
                 <img src={props.profile.photos.large}/>
                 <h1>{props.profile.fullName}</h1>
-                <p>{props.profile.lookingForAJobDescription}</p>
-                <ProfileStatus status={'Programer code'}/>
+                {/*<p>{props.profile.lookingForAJobDescription}</p>*/}
+                <ProfileStatus status={props.status} updateStatus={props.updateStatus}/>
                 <h2>Contacts</h2>
                 <ul>
                     <li>{props.profile.contacts.github}</li>
